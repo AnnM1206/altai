@@ -8,7 +8,7 @@ import io
 
 class Storage():
     def __init__(self):
-        self.disc = yadisk.YaDisk(token="y0_AgAAAAASCNEYAAmpswAAAADt7wyPpIi_muw5SNmg65jEzG-KKjS-8Es")
+        self.disc = yadisk.YaDisk(token="")
 
     def download_files(self, url):
         base_url = 'https://cloud-api.yandex.net/v1/disk/public/resources/download?'
